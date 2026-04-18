@@ -1,20 +1,36 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	
-	<style>
-		body{
-			background-color: black;
-		}
-	</style>
-	
-<head>
-<body >
+    <meta charset="UTF-8">
+    <title>Solar System</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: #ddd;
+            font-family: sans-serif;
+        }
+        h1 {
+            text-align: center;
+            padding: 12px;
+            margin: 0;
+            font-weight: 300;
+            letter-spacing: 2px;
+        }
+        #canvas {
+            display: block;
+            margin: 0 auto;
+            width: 700px;
+            height: 700px;
+        }
+    </style>
+</head>
+<body>
 
-	<canvas id="canvas" height="1500" width="1500">
+<h1>Solar System</h1>
+<canvas id="canvas" ></canvas>
 
-
-
+<script src="app.js"></script>
 </body>
-
-	<script src="app.js"></script>
 </html>
